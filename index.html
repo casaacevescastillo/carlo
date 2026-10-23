@@ -1505,9 +1505,9 @@ GEN.eng_punct = (L) => {
   return Object.assign({ type: 'mc', prompt: 'Tap the word that needs a capital letter.', visual: { k: 'quote', text: s }, options: uniq(wordsOf(s)).map(x => O(x)), answer: w, layout: 'chips',
     hint: 'Look at the first word and at special names.', explain: `"${cap(w)}" needs a capital letter.` });
 };
-const PROPER_EN = ['Cozumel', 'Carlo', 'Sofía', 'Héctor', 'Mexico', 'Tuga', 'Friday', 'Querétaro', 'Luna', 'October', 'Rayito'];
+const PROPER_EN = ['Cozumel', 'Carlo', 'Ivonne', 'Matteo', 'Mexico', 'Tuga', 'Friday', 'Querétaro', 'Luna', 'October', 'Rayito'];
 const COMMON_EN = ['turtle', 'ocean', 'beach', 'shell', 'boat', 'fish', 'island', 'mom', 'crab', 'dog', 'school', 'book', 'sand', 'whale'];
-const NOUN_SENT = [['My dog Max runs on the beach.', 'Max', ['dog', 'beach']], ['Sofía reads a book at home.', 'Sofía', ['book', 'home']], ['The boat sails to Cozumel.', 'Cozumel', ['boat', 'sails']], ['We eat tacos on Friday.', 'Friday', ['tacos', 'eat']],
+const NOUN_SENT = [['My dog Max runs on the beach.', 'Max', ['dog', 'beach']], ['Ivonne reads a book at home.', 'Ivonne', ['book', 'home']], ['The boat sails to Cozumel.', 'Cozumel', ['boat', 'sails']], ['We eat tacos on Friday.', 'Friday', ['tacos', 'eat']],
   ['My friend Leo likes kites.', 'Leo', ['friend', 'kites']], ['We swim in the ocean on Sunday.', 'Sunday', ['swim', 'ocean']], ['Our school trip is in October.', 'October', ['school', 'trip']], ['The turtle Tuga eats sea grass.', 'Tuga', ['turtle', 'grass']], ['My cat Luna sleeps all day.', 'Luna', ['cat', 'day']], ['The crab hides under a rock in Mexico.', 'Mexico', ['crab', 'rock']]];
 function sortQ(prompt, bins, items, more) { return Object.assign({ type: 'sort', prompt, bins, items: shuffle(items) }, more); }
 GEN.eng_nouns = (L) => {
@@ -1853,9 +1853,9 @@ GEN.e_abc = (L) => {
   let w; if (L === 1) w = distinctFirst(ES_WORDS, 3); else if (L === 2) w = distinctFirst(ES_WORDS, 4); else w = sample(pick(ES_SAME), Math.random() < 0.5 ? 3 : 4);
   return orderQ('Ordena las conchas en orden alfabético.', w, 'es', { visual: L === 1 ? { k: 'abc', es: true } : null, layout: 'shells', hint: L === 3 ? 'Empiezan con la misma letra. ¡Mira la segunda letra!' : 'Mira la primera letra de cada palabra.' });
 };
-const PROP_ES = ['Carlo', 'Cozumel', 'Héctor', 'Sofía', 'México', 'Tuga', 'Querétaro', 'Lalo'];
+const PROP_ES = ['Carlo', 'Cozumel', 'Matteo', 'Ivonne', 'México', 'Tuga', 'Querétaro', 'Lalo'];
 const COM_ES = ['tortuga', 'pez', 'playa', 'ola', 'concha', 'mamá', 'barco', 'isla'];
-const SUST_SENT = [['Sofía nada en Cozumel.', 2], ['Héctor pinta una ballena.', 1], ['Carlo y Tuga juegan en la playa.', 2], ['El pez nada en el mar.', 0]];
+const SUST_SENT = [['Ivonne nada en Cozumel.', 2], ['Matteo pinta una ballena.', 1], ['Carlo y Tuga juegan en la playa.', 2], ['El pez nada en el mar.', 0]];
 GEN.e_sust = (L) => {
   if (L < 3) {
     const k = L === 1 ? 2 : 3;
@@ -1867,12 +1867,12 @@ GEN.e_sust = (L) => {
 };
 const MAY = [
   ['Carlo vive en Querétaro.', ['Carlo vive en querétaro.', 'Carlo vive en querétaro.']],
-  ['Sofía y Héctor nadan en Cozumel.', ['sofía y héctor nadan en cozumel.', 'Sofía y héctor nadan en Cozumel.']],
+  ['Ivonne y Matteo nadan en Cozumel.', ['Ivonne y Matteo nadan en cozumel.', 'Ivonne y Matteo nadan en Cozumel.']],
   ['Mi tortuga se llama Tuga.', ['mi tortuga se llama tuga.', 'Mi Tortuga se llama tuga.']],
   ['El barco llega a México.', ['el barco llega a méxico.', 'El Barco llega a méxico.']],
   ['Hoy vimos un delfín.', ['hoy vimos un delfín.', 'Hoy vimos un Delfín.']],
 ];
-const MAY_FIX = [['Vamos a cozumel en avión.', 'cozumel'], ['la tortuga nada en el mar.', 'la'], ['Mi papá se llama héctor.', 'héctor'], ['El pez de Carlo es naranja.', 'Carlo'], ['ayer fuimos a la playa.', 'ayer']];
+const MAY_FIX = [['Vamos a cozumel en avión.', 'cozumel'], ['la tortuga nada en el mar.', 'la'], ['Mi papá se llama Matteo.', 'Matteo'], ['El pez de Carlo es naranja.', 'Carlo'], ['ayer fuimos a la playa.', 'ayer']];
 GEN.e_may = (L) => {
   if (L < 3) { const [c, w] = pick(MAY); return mc('¿Cuál oración está bien escrita?', c, L === 1 ? [w[0]] : w, { n: L === 1 ? 2 : 3, layout: 'list', hint: 'Mayúscula al inicio y en los nombres propios.', explain: `«${c}» empieza con mayúscula y los nombres propios también la llevan.` }); }
   if (Math.random() < 0.3) return mc('¿Cuándo usamos mayúscula?', 'Al empezar una oración y en nombres propios', ['En todas las palabras', 'Solo al final de la oración'], { layout: 'list', hint: 'Piensa en «Carlo vive en Querétaro.»', explain: 'Usamos mayúscula al empezar una oración y en los nombres propios.' });
