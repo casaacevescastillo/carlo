@@ -13,7 +13,7 @@
       content="yes">
 
 <meta name="apple-mobile-web-app-title"
-      content="Diego Cozumel">
+      content="carlo Cozumel">
 
 <meta name="apple-mobile-web-app-status-bar-style"
       content="default">
@@ -22,13 +22,13 @@
       content="Las 5 Perlas de Cozumel">
 
 <meta property="og:description"
-      content="La aventura educativa de Diego">
+      content="La aventura educativa de carlo">
 
 <meta property="og:image"
-      content="https://casaacevescastillo.github.io/diego-cozumel/thumbnail.png">
+      content="https://casaacevescastillo.github.io/carlo-cozumel/thumbnail.png">
 <meta name="mobile-web-app-capable" content="yes">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Diego y la aventura de las 5 perlas de Cozumel</title>
+<title>carlo y la aventura de las 5 perlas de Cozumel</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -936,7 +936,7 @@ button.pbeat{cursor:pointer}
 .pearl-row.labeled span{display:flex;flex-direction:column;align-items:center;gap:2px}
 .pearl-row.labeled small{font-size:12px;font-weight:700;color:#5d7584}.pearl-row.labeled .got small{color:#0d2b3e}
 .home .home-card{gap:var(--space-3)}
-@media (max-width:600px){.scene-diego{transform:translateX(-65%)}.pearl-row.labeled{gap:6px}.pearl-row.labeled small{font-size:11px}}
+@media (max-width:600px){.scene-carlo{transform:translateX(-65%)}.pearl-row.labeled{gap:6px}.pearl-row.labeled small{font-size:11px}}
 .today-chip .tc-note{font-size:14px;color:#3b5566}
 .col-tabs{display:flex;gap:var(--space-2);flex-wrap:wrap;margin:0 0 var(--space-3)}
 .col-tabs button{font:inherit;font-weight:800;font-size:17px;min-height:52px;padding:0 18px;border:0;border-radius:16px;background:rgba(255,250,241,.85);color:#0d2b3e;display:flex;align-items:center;gap:8px;cursor:pointer}
@@ -975,12 +975,12 @@ button.pbeat{cursor:pointer}
 .app.home-app::before{display:none}
 .home.screen{max-width:1100px}
 .home .home-stage{position:relative}
-/* Hero: Diego is anchored to the exact center of the hero area (above the card) at every size. */
+/* Hero: carlo is anchored to the exact center of the hero area (above the card) at every size. */
 .home-scene{--sh:clamp(260px,46vh,480px);position:relative;height:var(--sh)}
 .scene-anchor{position:absolute;left:50%;top:50%;width:min(36%,calc(var(--sh) * .8));transform:translate(-54.2%,-47.8%);z-index:3}
-.scene-diego{position:relative;animation:floatD 6s ease-in-out infinite}
+.scene-carlo{position:relative;animation:floatD 6s ease-in-out infinite}
 .scene-tuga{position:absolute;width:56%;left:-44%;top:46%;z-index:-1;animation:floatT 5s ease-in-out infinite}
-.scene-diego img,.scene-tuga img,.scene-creature img{display:block;width:100%;height:auto;max-width:none;user-select:none;-webkit-user-drag:none}
+.scene-carlo img,.scene-tuga img,.scene-creature img{display:block;width:100%;height:auto;max-width:none;user-select:none;-webkit-user-drag:none}
 .scene-creature{--w:calc(clamp(56px,8vw,100px) * var(--k,1));position:absolute;width:var(--w);left:clamp(4px,calc(var(--x) - var(--w) / 2),calc(100% - var(--w) - 4px));top:clamp(6px,var(--y),calc(100% - var(--w) * var(--a) - 10px));animation:bob 4.5s ease-in-out infinite}
 .scene-creature.far{z-index:1}.scene-creature.near{z-index:4}
 .scene-creature img{filter:drop-shadow(0 4px 4px rgba(3,30,46,.18))}
@@ -988,7 +988,7 @@ button.pbeat{cursor:pointer}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @keyframes floatD{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @keyframes floatT{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(-2deg)}}
-/* Home layering: 0 ocean (.app background) · 10 Diego, Tuga, creatures · 20 cream card · 30 coral foreground */
+/* Home layering: 0 ocean (.app background) · 10 carlo, Tuga, creatures · 20 cream card · 30 coral foreground */
 .app.home-app{padding-bottom:0;isolation:isolate}
 .home.screen{position:static;padding-bottom:calc(100vw / 3 * .6)}
 .home .home-stage{position:relative;z-index:10}
@@ -1055,7 +1055,7 @@ button.pbeat{cursor:pointer}
   padding:calc(var(--ch) * .42 + var(--space-4)) clamp(20px,4vw,44px) clamp(24px,3.5vw,40px);display:flex;flex-direction:column;align-items:center;text-align:center}
 .mi-chars{position:absolute;left:0;right:0;top:0;transform:translateY(-58%);display:flex;justify-content:center;align-items:flex-end;gap:clamp(4px,2vw,24px);pointer-events:none;z-index:2}
 .mi-chars img{display:block;width:auto;max-width:none;user-select:none;-webkit-user-drag:none}
-.mi-diego{height:var(--ch);animation:floatY 6s ease-in-out infinite}
+.mi-carlo{height:var(--ch);animation:floatY 6s ease-in-out infinite}
 .mi-guide{height:calc(var(--ch) * var(--gk,.8));margin-bottom:calc(var(--ch) * .04);animation:floatY 5s ease-in-out -1.5s infinite}
 @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 .mi-title{font-family:var(--display);font-weight:400;color:var(--ink-hero);font-size:clamp(30px,3.4vw,44px);line-height:1.12;letter-spacing:-.01em;margin:0}
@@ -1130,9 +1130,9 @@ button.pbeat{cursor:pointer}
 .final-lights{display:inline-flex;gap:4px;align-items:center;background:rgba(255,250,241,.9);border-radius:999px;padding:2px 10px}
 .final-cast{display:flex;align-items:flex-end;justify-content:center;gap:var(--space-2);flex-wrap:nowrap;max-width:100%}
 .fc-side{display:flex;align-items:flex-end;gap:2px;flex-wrap:wrap;justify-content:center}
-.fc-diego{flex:none}
+.fc-carlo{flex:none}
 .reward-stack .swims{font-weight:700;color:#1f7a4d;margin:4px 0 0}
-@media (max-width:520px){.fc-diego svg{width:110px;height:auto}.fc-host svg{width:44px;height:auto}}
+@media (max-width:520px){.fc-carlo svg{width:110px;height:auto}.fc-host svg{width:44px;height:auto}}
 .sr-swims{margin:var(--space-2) 0 0;font-weight:700;color:#1f7a4d;font-size:17px}
 .scene-lamp{position:absolute;top:6px;transform:translateX(-50%);z-index:1;pointer-events:none;filter:drop-shadow(0 0 10px rgba(255,255,255,.95))}
 .scene-light{clip-path:polygon(42% 0,58% 0,100% 100%,0 100%)}
@@ -1220,7 +1220,7 @@ button.pbeat{cursor:pointer}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
-<script>if (!(window.React && window.ReactDOM && window.htm)) document.getElementById("root").innerHTML = '<div role="alert" style="max-width:520px;margin:15vh auto;padding:24px;background:#fffaf1;border-radius:22px;font:20px/1.4 system-ui,sans-serif;color:#0d2b3e;text-align:center"><p style="font-size:26px;font-weight:700;margin:0 0 8px">El arrecife no pudo cargar</p><p style="margin:0 0 16px">Revisa la conexión a internet y vuelve a intentarlo. El progreso de Diego sigue guardado.</p><button onclick="location.reload()" style="font:inherit;font-weight:700;padding:12px 24px;border:0;border-radius:16px;background:#ffc531;min-height:56px;cursor:pointer">Intentar de nuevo</button></div>';</script>
+<script>if (!(window.React && window.ReactDOM && window.htm)) document.getElementById("root").innerHTML = '<div role="alert" style="max-width:520px;margin:15vh auto;padding:24px;background:#fffaf1;border-radius:22px;font:20px/1.4 system-ui,sans-serif;color:#0d2b3e;text-align:center"><p style="font-size:26px;font-weight:700;margin:0 0 8px">El arrecife no pudo cargar</p><p style="margin:0 0 16px">Revisa la conexión a internet y vuelve a intentarlo. El progreso de carlo sigue guardado.</p><button onclick="location.reload()" style="font:inherit;font-weight:700;padding:12px 24px;border:0;border-radius:16px;background:#ffc531;min-height:56px;cursor:pointer">Intentar de nuevo</button></div>';</script>
 <script>
 /* ================= CONTENT + ENGINE (pure JS, no UI) ================= */
 const rnd = n => Math.floor(Math.random() * n);
@@ -1374,7 +1374,7 @@ const SPELL = [
   ['ai', 'whale', '🐋', 'A blue ___ is the biggest animal in the sea.', 'wh_le', 'a', ['e', 'u']],
   ['ai', 'play', '⚽', "Let's ___ tag on the beach.", 'pl_', 'ay', ['ai', 'ee']],
   ['ai', 'snail', '🐌', 'A ___ carries its shell on its back.', 'sn_l', 'ai', ['ay', 'ee']],
-  ['ai', 'name', '🏷️', 'My ___ is Diego.', 'n_me', 'a', ['i', 'o']],
+  ['ai', 'name', '🏷️', 'My ___ is carlo.', 'n_me', 'a', ['i', 'o']],
   ['ai', 'tray', null, 'Dad carries the drinks on a ___.', 'tr_', 'ay', ['ai', 'oa']],
   ['ee', 'feet', '🦶', 'I have two ___ for walking.', 'f_t', 'ee', ['ai', 'oa']],
   ['ee', 'read', '📚', 'I like to ___ books at night.', 'r_d', 'ea', ['ie', 'ay']],
@@ -1398,7 +1398,7 @@ const LESSONS = {
   eng_caps: ['Every letter has two shapes: a big UPPERCASE letter and a small lowercase letter. Partners have the same name.', 'B → b     D → d     G → g     Q → q'],
   eng_abc: ['ABC order: look at the first letter. If the first letters are the same, look at the second letter.', 'crab, fish, turtle     sand, sea, sun'],
   eng_sentence: ['A sentence is a complete idea. It tells who and what happens. It starts with a capital letter and ends with a mark.', '✔ The crab walks on the sand.     ✘ The big crab'],
-  eng_punct: ['Start every sentence with a capital letter. A telling sentence ends with a period (.). A question ends with a question mark (?).', 'Diego loves the ocean.     Do you like fish?'],
+  eng_punct: ['Start every sentence with a capital letter. A telling sentence ends with a period (.). A question ends with a question mark (?).', 'carlo loves the ocean.     Do you like fish?'],
   eng_nouns: ['A noun names a person, place, animal or thing. A proper noun is a special name, so it starts with a capital letter.', 'common: turtle, ocean     proper: Tuga, Cozumel'],
   eng_art: ['Use AN before a vowel sound (a, e, i, o, u). Use A before other sounds. Use THE for one special thing, like the sun.', 'an octopus     a turtle     the sun'],
   m_n20: ['A ten-frame holds 10. One full frame and some more makes a teen number.', '10 and 3 more = 13'],
@@ -1422,7 +1422,7 @@ const LESSONS = {
   e_cartel: ['Un cartel tiene un mensaje corto, letras grandes y dibujos. Un texto informativo nos enseña datos reales.', ''],
   e_abc: ['Para ordenar alfabéticamente miramos la primera letra. Si es igual, miramos la segunda.', 'arena, mar, sol     pez, playa, pulpo'],
   e_sust: ['Los sustantivos comunes nombran cosas en general. Los propios son nombres especiales y llevan mayúscula.', 'común: tortuga     propio: Tuga'],
-  e_may: ['Usamos mayúscula al empezar una oración y en los nombres propios.', 'Diego vive en Querétaro.'],
+  e_may: ['Usamos mayúscula al empezar una oración y en los nombres propios.', 'carlo vive en Querétaro.'],
   e_punto: ['El punto y seguido separa oraciones del mismo párrafo. El punto final cierra todo el texto.', ''],
   e_chll: ['Ch suena como en chocolate. Ll suena como en llave. Ñ suena como en piñata.', ''],
   e_num: ['Del 16 al 29 se escribe en una sola palabra: dieciséis, veinticinco. Desde el 31 usamos «y»: treinta y uno.', ''],
@@ -1467,9 +1467,9 @@ GEN.eng_abc = (L) => {
   return orderQ('Put the seashells in ABC order.', words, 'en', { visual: L === 1 ? { k: 'abc' } : null, layout: 'shells',
     hint: L === 3 ? 'The first letters are the same. Look at the second letter!' : 'Look at the first letter of each word. Which comes first in the alphabet?' });
 };
-const SENTS = ['The turtle swims in the sea.', 'Diego finds a shell.', 'Mom reads a book.', 'Dad paints a whale.', 'We play on the beach.', 'The crab walks on the sand.', 'I see a dolphin.'];
-const FRAGS = ['The big turtle', 'in the blue sea', 'a red crab', 'runs on the', 'blue and green', 'Diego and Mom', 'under the water'];
-const BUILD_SENTS = [['I', 'see', 'a', 'crab.'], ['Diego', 'finds', 'a', 'shell.'], ['Mom', 'reads', 'a', 'book.'], ['Dad', 'paints', 'a', 'whale.'], ['We', 'play', 'on', 'the', 'beach.']];
+const SENTS = ['The turtle swims in the sea.', 'carlo finds a shell.', 'Mom reads a book.', 'Dad paints a whale.', 'We play on the beach.', 'The crab walks on the sand.', 'I see a dolphin.'];
+const FRAGS = ['The big turtle', 'in the blue sea', 'a red crab', 'runs on the', 'blue and green', 'carlo and Mom', 'under the water'];
+const BUILD_SENTS = [['I', 'see', 'a', 'crab.'], ['carlo', 'finds', 'a', 'shell.'], ['Mom', 'reads', 'a', 'book.'], ['Dad', 'paints', 'a', 'whale.'], ['We', 'play', 'on', 'the', 'beach.']];
 GEN.eng_sentence = (L) => {
   if (L === 1 || L === 2) {
     const s = pick(SENTS);
@@ -1485,7 +1485,7 @@ GEN.eng_sentence = (L) => {
   return yesno('Is this a complete sentence?', isS, { visual: { k: 'quote', text: t },
     hint: 'Does it tell who AND what happens? Does it end with a mark?', explain: isS ? 'Yes! It is a complete idea with a capital letter and a period.' : 'No. It is only part of an idea. It does not tell what happens.' });
 };
-const CORRECT_EN = ['Diego loves the ocean.', 'Mom swims with turtles.', 'The crab is red.', 'Dad paints a big whale.', 'We play in the sand.', 'Tuga eats sea grass.'];
+const CORRECT_EN = ['carlo loves the ocean.', 'Mom swims with turtles.', 'The crab is red.', 'Dad paints a big whale.', 'We play in the sand.', 'Tuga eats sea grass.'];
 const END_MARK = [['The sand is warm', '.'], ['I like to swim', '.'], ['The fish is blue', '.'], ['Can you see the turtle', '?'], ['Where is the whale', '?'], ['Do you like mango', '?'], ['Is the water cold', '?']];
 const CAP_FIX = [['We went to cozumel on a plane.', 'cozumel'], ['my dad paints whales.', 'my'], ['The turtle is named tuga.', 'tuga'], ['mom found a pink shell.', 'mom'], ['I live in mexico.', 'mexico']];
 function wordsOf(s) { return s.replace(/[.?!,]/g, '').split(' '); }
@@ -1505,7 +1505,7 @@ GEN.eng_punct = (L) => {
   return Object.assign({ type: 'mc', prompt: 'Tap the word that needs a capital letter.', visual: { k: 'quote', text: s }, options: uniq(wordsOf(s)).map(x => O(x)), answer: w, layout: 'chips',
     hint: 'Look at the first word and at special names.', explain: `"${cap(w)}" needs a capital letter.` });
 };
-const PROPER_EN = ['Cozumel', 'Diego', 'Sofía', 'Héctor', 'Mexico', 'Tuga', 'Friday', 'Querétaro', 'Luna', 'October', 'Rayito'];
+const PROPER_EN = ['Cozumel', 'carlo', 'Sofía', 'Héctor', 'Mexico', 'Tuga', 'Friday', 'Querétaro', 'Luna', 'October', 'Rayito'];
 const COMMON_EN = ['turtle', 'ocean', 'beach', 'shell', 'boat', 'fish', 'island', 'mom', 'crab', 'dog', 'school', 'book', 'sand', 'whale'];
 const NOUN_SENT = [['My dog Max runs on the beach.', 'Max', ['dog', 'beach']], ['Sofía reads a book at home.', 'Sofía', ['book', 'home']], ['The boat sails to Cozumel.', 'Cozumel', ['boat', 'sails']], ['We eat tacos on Friday.', 'Friday', ['tacos', 'eat']],
   ['My friend Leo likes kites.', 'Leo', ['friend', 'kites']], ['We swim in the ocean on Sunday.', 'Sunday', ['swim', 'ocean']], ['Our school trip is in October.', 'October', ['school', 'trip']], ['The turtle Tuga eats sea grass.', 'Tuga', ['turtle', 'grass']], ['My cat Luna sleeps all day.', 'Luna', ['cat', 'day']], ['The crab hides under a rock in Mexico.', 'Mexico', ['crab', 'rock']]];
@@ -1515,7 +1515,7 @@ GEN.eng_nouns = (L) => {
     const k = L === 1 ? 2 : 3;
     const items = sample(PROPER_EN, k).map(w => O(w, w, { bin: 'p' })).concat(sample(COMMON_EN, k).map(w => O(w, w, { bin: 'c' })));
     return sortQ('Sort the words: proper noun or common noun?', [{ id: 'p', label: 'Proper noun' }, { id: 'c', label: 'Common noun' }], items,
-      { hint: 'Proper nouns are special names. They start with a capital letter.', explain: 'Proper nouns are special names with a capital letter, like Cozumel and Diego.' });
+      { hint: 'Proper nouns are special names. They start with a capital letter.', explain: 'Proper nouns are special names with a capital letter, like Cozumel and carlo.' });
   }
   const [s, a, d] = pick(NOUN_SENT);
   return mc('Which word is the proper noun?', a, d, { visual: { k: 'quote', text: s }, layout: 'grid', hint: 'Find the special name with a capital letter in the middle of the sentence.', explain: `${a} is a special name, so it is a proper noun.` });
@@ -1536,7 +1536,7 @@ GEN.eng_art = (L) => {
       hint: 'There is only one sun, one moon and one sky.', explain: 'We say THE for one special thing everybody knows.' });
   }
   const an = Math.random() < 0.5; const w = an ? pick(AN_W) : pick(A_W);
-  const text = L === 1 ? '___ ' + w : `Diego sees ___ ${w}.`;
+  const text = L === 1 ? '___ ' + w : `carlo sees ___ ${w}.`;
   return Object.assign({ type: 'mc', prompt: 'Choose a or an.', visual: { k: 'quote', text, emoji: L === 1 ? ART_EMO[w] : null }, options: [O('a'), O('an')], answer: an ? 'an' : 'a', layout: 'grid big',
     hint: `Say "${w}". Does it start with a vowel sound: a, e, i, o, u?`, explain: an ? `"${w}" starts with a vowel sound, so we say an ${w}.` : `"${w}" starts with a consonant sound, so we say a ${w}.` });
 };
@@ -1598,7 +1598,7 @@ GEN.m_pv = (L) => {
 GEN.m_exp = (L, ctx) => {
   let t, o; do { t = rint(2, 9); o = rint(1, 9); } while (o === t);
   const n = t * 10 + o; const [, many] = OBJ_NAMES[ctx.obj];
-  if (L === 1) return mc(`Diego collects ${n} ${many}. Complete: ${n} = ${t * 10} + ___`, o, [t, o * 10, o + 1], { visual: { k: 'rods', tens: t, ones: o }, layout: 'grid big', hint: `How many ones are in ${n}?`, explain: `${n} = ${t * 10} + ${o}` });
+  if (L === 1) return mc(`carlo collects ${n} ${many}. Complete: ${n} = ${t * 10} + ___`, o, [t, o * 10, o + 1], { visual: { k: 'rods', tens: t, ones: o }, layout: 'grid big', hint: `How many ones are in ${n}?`, explain: `${n} = ${t * 10} + ${o}` });
   if (L === 2) return mc(`Complete: ${n} = ___ + ${o}`, t * 10, [t, n, (t + 1) * 10], { layout: 'grid big', hint: `The ${t} is in the tens place. What is it worth?`, explain: `${n} = ${t * 10} + ${o}` });
   return mc(`Which is the expanded form of ${n}?`, `${t * 10} + ${o}`, [`${t} + ${o}`, `${o * 10} + ${t}`, `${t * 10} + ${o * 10}`], { layout: 'grid big', hint: 'Tens first, then ones.', explain: `${n} = ${t * 10} + ${o}` });
 };
@@ -1686,11 +1686,11 @@ GEN.m_pat = (L) => {
 /* ================= READING ================= */
 const SEQ = {
   ocean: ['Tuga woke up early.', 'She swam through the reef.', 'Then she found a beautiful shell.', 'Finally, she returned home.'],
-  beach: ['Diego got his bucket.', 'He filled it with sand.', 'Then he built a big sandcastle.', 'Finally, a wave touched the castle.'],
-  pool: ['Diego put on his goggles.', 'He jumped into the pool.', 'Then he swam to Dad.', 'Finally, he rested on a towel.'],
-  shells: ['Mom and Diego walked on the beach.', 'Diego saw a pink shell.', 'Then he picked it up.', 'Finally, he put it in his bag.'],
+  beach: ['carlo got his bucket.', 'He filled it with sand.', 'Then he built a big sandcastle.', 'Finally, a wave touched the castle.'],
+  pool: ['carlo put on his goggles.', 'He jumped into the pool.', 'Then he swam to Dad.', 'Finally, he rested on a towel.'],
+  shells: ['Mom and carlo walked on the beach.', 'carlo saw a pink shell.', 'Then he picked it up.', 'Finally, he put it in his bag.'],
   island: ['The family got on their bikes.', 'They rode past tall palm trees.', 'Then they saw an old lighthouse.', 'Finally, they ate tacos for lunch.'],
-  family: ['Dad got out his paints.', 'He painted a whale with wings.', 'Then Diego added a turtle.', 'Finally, Mom hung the picture on the wall.'],
+  family: ['Dad got out his paints.', 'He painted a whale with wings.', 'Then carlo added a turtle.', 'Finally, Mom hung the picture on the wall.'],
 };
 function stripSignal(s) { return cap(s.replace(/^(Then|Finally),?\s+/, '')); }
 GEN.r_seq = (L, ctx) => {
@@ -1703,12 +1703,12 @@ GEN.r_seq = (L, ctx) => {
     items: shuffle(lab).map(x => O(x)), answer: lab, layout: 'list', hint: 'Look for signal words: Then, Finally. What has to happen first?', explain: 'The order is: ' + lab.join(' → ') };
 };
 const STORIES = [
-  { t: 'Rayito glided over the white sand. He was looking for his friend Tuga. He found her near the coral reef.', who: 'Rayito', whoD: ['Diego', 'Mom', 'A shark'], where: 'Under the sea', whereD: ['At school', 'In a kitchen', 'On a bus'], th: 'ocean' },
-  { t: 'Diego and Dad went to the pool. Diego swam very fast. Dad clapped for him.', who: 'Diego', whoD: ['Tuga', 'A crab', 'Coralina'], where: 'At the pool', whereD: ['At the zoo', 'In the reef', 'At school'], th: 'pool' },
-  { t: 'Coralina lived in a cave under the sea. Every night she read books with a glowing fish.', who: 'Coralina', whoD: ['Diego', 'Rayito', 'Dad'], where: 'In a cave under the sea', whereD: ['On a plane', 'At the park', 'In a city'], th: 'family' },
+  { t: 'Rayito glided over the white sand. He was looking for his friend Tuga. He found her near the coral reef.', who: 'Rayito', whoD: ['carlo', 'Mom', 'A shark'], where: 'Under the sea', whereD: ['At school', 'In a kitchen', 'On a bus'], th: 'ocean' },
+  { t: 'carlo and Dad went to the pool. carlo swam very fast. Dad clapped for him.', who: 'carlo', whoD: ['Tuga', 'A crab', 'Coralina'], where: 'At the pool', whereD: ['At the zoo', 'In the reef', 'At school'], th: 'pool' },
+  { t: 'Coralina lived in a cave under the sea. Every night she read books with a glowing fish.', who: 'Coralina', whoD: ['carlo', 'Rayito', 'Dad'], where: 'In a cave under the sea', whereD: ['On a plane', 'At the park', 'In a city'], th: 'family' },
   { t: 'Mom found a little crab at the beach. The crab waved its claw. Mom laughed.', who: 'Mom', whoD: ['Dad', 'Tuga', 'Rayito'], where: 'At the beach', whereD: ['In the pool', 'At school', 'In a forest'], th: 'beach' },
-  { t: 'Burbujín puffed up in the lagoon. He wanted to look big. A tiny fish just giggled.', who: 'Burbujín', whoD: ['Diego', 'Mom', 'Coralina'], where: 'In the lagoon', whereD: ['At a store', 'In the sky', 'At school'], th: 'shells' },
-  { t: 'Diego rode his bike on the island. He saw iguanas sleeping in the sun. He stopped at a red lighthouse.', who: 'Diego', whoD: ['Tuga', 'Burbujín', 'An iguana'], where: 'On the island', whereD: ['Under the sea', 'In a cave', 'At the pool'], th: 'island' },
+  { t: 'Burbujín puffed up in the lagoon. He wanted to look big. A tiny fish just giggled.', who: 'Burbujín', whoD: ['carlo', 'Mom', 'Coralina'], where: 'In the lagoon', whereD: ['At a store', 'In the sky', 'At school'], th: 'shells' },
+  { t: 'carlo rode his bike on the island. He saw iguanas sleeping in the sun. He stopped at a red lighthouse.', who: 'carlo', whoD: ['Tuga', 'Burbujín', 'An iguana'], where: 'On the island', whereD: ['Under the sea', 'In a cave', 'At the pool'], th: 'island' },
 ];
 GEN.r_story = (L, ctx) => {
   if (L === 3 && Math.random() < 0.4) {
@@ -1726,7 +1726,7 @@ const BRAIN = [
   { w: 'cerebellum', def: 'the part that helps you balance and move', sent: 'When you ride a bike without falling, your ___ is helping you balance.', hl: 'cereb', view: 'side', q: 'This yellow part helps you keep your balance. What is it called?' },
   { w: 'brain stem', def: 'the part that keeps you breathing and your heart beating', sent: 'The ___ keeps your heart beating, even when you sleep.', hl: 'stem', view: 'side', q: 'This yellow part connects the brain to the body and keeps you breathing. What is it called?' },
   { w: 'memory', def: 'what helps you remember things', sent: 'Your ___ helps you remember your birthday.' },
-  { w: 'adaptable', def: 'able to change when something is new', sent: 'Diego moved to a new class and made friends fast. He is ___.' },
+  { w: 'adaptable', def: 'able to change when something is new', sent: 'carlo moved to a new class and made friends fast. He is ___.' },
 ];
 function vocabQ(L, list, extra) {
   const it = pick(list); const ws = list.map(x => x.w);
@@ -1756,7 +1756,7 @@ const HABITS = [
   { w: 'hydrated', def: 'having enough water in your body', sent: 'Drink water on a hot day to stay ___.' },
 ];
 const HABIT_SIT = [
-  ['Diego played in the hot sun all morning. What helps him stay hydrated?', 'Drink water', ['Eat candy', 'Stay in the sun']],
+  ['carlo played in the hot sun all morning. What helps him stay hydrated?', 'Drink water', ['Eat candy', 'Stay in the sun']],
   ['Your hands are sandy and it is time to eat. What is good hygiene?', 'Wash your hands', ['Lick your fingers', 'Eat right away']],
   ['It is late at night. What does your body need?', 'Sleep', ['A soda', 'More TV']],
   ['Which one is exercise?', 'Swimming in the pool', ['Watching TV', 'Eating chips']],
@@ -1788,7 +1788,7 @@ const L5 = [
   { w: 'food', def: 'what we eat to get energy and grow', sent: 'Your body needs ___ to have energy.' },
   { w: 'healthy', def: 'good for your body', sent: 'Fruit and vegetables are ___ food.' },
   { w: 'unhealthy', def: 'not good for your body if you have a lot', sent: 'Eating lots of candy every day is ___.' },
-  { w: 'rest', def: 'to stop and relax so your body feels better', sent: 'After a long swim, Diego needs to ___.' },
+  { w: 'rest', def: 'to stop and relax so your body feels better', sent: 'After a long swim, carlo needs to ___.' },
   { w: 'learn', def: 'to find out something new', sent: 'At school, we ___ new things every day.' },
 ];
 const L5_ALT = { food: 'Rice, fish and fruit are all kinds of ___.', healthy: 'Drinking water is a ___ habit.', unhealthy: 'Soda every day is ___ for your teeth.', rest: 'When you feel very tired, it is time to ___.', learn: 'Reading books helps you ___ about the ocean.' };
@@ -1805,7 +1805,7 @@ GEN.r_v5 = (L) => {
 
 /* ================= ESPAÑOL ================= */
 const CUENTOS = [
-  { title: 'El caballito de mar', parts: ['Había una vez un caballito de mar llamado Lalo que vivía en Cozumel.', 'Un día quiso conocer todo el arrecife y nadó con su amiga Tuga.', 'Al final, vio peces de mil colores y regresó a casa muy feliz.'], who: 'Lalo, el caballito de mar', whoD: ['Un tiburón', 'Diego', 'Una gaviota'], where: 'En el mar de Cozumel', whereD: ['En una escuela', 'En el desierto', 'En un avión'], end: 'Lalo vio peces de mil colores', endD: ['Lalo se perdió para siempre', 'Lalo se fue a la ciudad'] },
+  { title: 'El caballito de mar', parts: ['Había una vez un caballito de mar llamado Lalo que vivía en Cozumel.', 'Un día quiso conocer todo el arrecife y nadó con su amiga Tuga.', 'Al final, vio peces de mil colores y regresó a casa muy feliz.'], who: 'Lalo, el caballito de mar', whoD: ['Un tiburón', 'carlo', 'Una gaviota'], where: 'En el mar de Cozumel', whereD: ['En una escuela', 'En el desierto', 'En un avión'], end: 'Lalo vio peces de mil colores', endD: ['Lalo se perdió para siempre', 'Lalo se fue a la ciudad'] },
   { title: 'La tortuga dormilona', parts: ['Había una vez una tortuga llamada Tuga que dormía mucho.', 'Un día, sus amigos hicieron una fiesta en el arrecife y Tuga casi no llega.', 'Al final, nadó muy rápido, llegó a tiempo y bailó con todos.'], who: 'Tuga, la tortuga', whoD: ['Un delfín', 'Mamá', 'Un cangrejo'], where: 'En el arrecife', whereD: ['En una casa', 'En la montaña', 'En el parque'], end: 'Tuga llegó a tiempo y bailó', endD: ['Tuga se quedó dormida', 'La fiesta se canceló'] },
   { title: 'Estelita la pintora', parts: ['Había una vez Estelita, una estrella de mar rosa que amaba pintar.', 'Un día, una ola se llevó sus pinturas muy lejos.', 'Al final, sus amigos la ayudaron a encontrarlas y pintaron juntos.'], who: 'Estelita, la estrella de mar', whoD: ['Rayito', 'Papá', 'Una tortuga'], where: 'En el fondo del mar', whereD: ['En un museo', 'En la escuela', 'En el cielo'], end: 'Sus amigos la ayudaron', endD: ['Estelita dejó de pintar', 'La ola regresó a casa'] },
 ];
@@ -1853,34 +1853,34 @@ GEN.e_abc = (L) => {
   let w; if (L === 1) w = distinctFirst(ES_WORDS, 3); else if (L === 2) w = distinctFirst(ES_WORDS, 4); else w = sample(pick(ES_SAME), Math.random() < 0.5 ? 3 : 4);
   return orderQ('Ordena las conchas en orden alfabético.', w, 'es', { visual: L === 1 ? { k: 'abc', es: true } : null, layout: 'shells', hint: L === 3 ? 'Empiezan con la misma letra. ¡Mira la segunda letra!' : 'Mira la primera letra de cada palabra.' });
 };
-const PROP_ES = ['Diego', 'Cozumel', 'Héctor', 'Sofía', 'México', 'Tuga', 'Querétaro', 'Lalo'];
+const PROP_ES = ['carlo', 'Cozumel', 'Héctor', 'Sofía', 'México', 'Tuga', 'Querétaro', 'Lalo'];
 const COM_ES = ['tortuga', 'pez', 'playa', 'ola', 'concha', 'mamá', 'barco', 'isla'];
-const SUST_SENT = [['Sofía nada en Cozumel.', 2], ['Héctor pinta una ballena.', 1], ['Diego y Tuga juegan en la playa.', 2], ['El pez nada en el mar.', 0]];
+const SUST_SENT = [['Sofía nada en Cozumel.', 2], ['Héctor pinta una ballena.', 1], ['carlo y Tuga juegan en la playa.', 2], ['El pez nada en el mar.', 0]];
 GEN.e_sust = (L) => {
   if (L < 3) {
     const k = L === 1 ? 2 : 3;
     const items = sample(PROP_ES, k).map(w => O(w, w, { bin: 'p' })).concat(sample(COM_ES, k).map(w => O(w, w, { bin: 'c' })));
-    return sortQ('Clasifica: ¿sustantivo propio o común?', [{ id: 'p', label: 'Propio' }, { id: 'c', label: 'Común' }], items, { hint: 'Los propios son nombres especiales y llevan mayúscula.', explain: 'Propios: nombres especiales como Diego o Cozumel. Comunes: tortuga, pez, playa.' });
+    return sortQ('Clasifica: ¿sustantivo propio o común?', [{ id: 'p', label: 'Propio' }, { id: 'c', label: 'Común' }], items, { hint: 'Los propios son nombres especiales y llevan mayúscula.', explain: 'Propios: nombres especiales como carlo o Cozumel. Comunes: tortuga, pez, playa.' });
   }
   if (Math.random() < 0.5) { const [s, n] = pick(SUST_SENT); return mc('¿Cuántos sustantivos propios hay en la oración?', n, [0, 1, 2, 3], { visual: { k: 'quote', text: s }, layout: 'grid big', hint: 'Busca nombres especiales con mayúscula (sin contar la primera palabra si no es un nombre).', explain: `Hay ${n}.` }); }
   const p = pick(PROP_ES); return mc('¿Cuál es un sustantivo propio?', p, COM_ES, { layout: 'grid', hint: 'Busca el nombre especial.', explain: `${p} es un nombre propio.` });
 };
 const MAY = [
-  ['Diego vive en Querétaro.', ['diego vive en querétaro.', 'Diego vive en querétaro.']],
+  ['carlo vive en Querétaro.', ['carlo vive en querétaro.', 'carlo vive en querétaro.']],
   ['Sofía y Héctor nadan en Cozumel.', ['sofía y héctor nadan en cozumel.', 'Sofía y héctor nadan en Cozumel.']],
   ['Mi tortuga se llama Tuga.', ['mi tortuga se llama tuga.', 'Mi Tortuga se llama tuga.']],
   ['El barco llega a México.', ['el barco llega a méxico.', 'El Barco llega a méxico.']],
   ['Hoy vimos un delfín.', ['hoy vimos un delfín.', 'Hoy vimos un Delfín.']],
 ];
-const MAY_FIX = [['Vamos a cozumel en avión.', 'cozumel'], ['la tortuga nada en el mar.', 'la'], ['Mi papá se llama héctor.', 'héctor'], ['El pez de diego es naranja.', 'diego'], ['ayer fuimos a la playa.', 'ayer']];
+const MAY_FIX = [['Vamos a cozumel en avión.', 'cozumel'], ['la tortuga nada en el mar.', 'la'], ['Mi papá se llama héctor.', 'héctor'], ['El pez de carlo es naranja.', 'carlo'], ['ayer fuimos a la playa.', 'ayer']];
 GEN.e_may = (L) => {
   if (L < 3) { const [c, w] = pick(MAY); return mc('¿Cuál oración está bien escrita?', c, L === 1 ? [w[0]] : w, { n: L === 1 ? 2 : 3, layout: 'list', hint: 'Mayúscula al inicio y en los nombres propios.', explain: `«${c}» empieza con mayúscula y los nombres propios también la llevan.` }); }
-  if (Math.random() < 0.3) return mc('¿Cuándo usamos mayúscula?', 'Al empezar una oración y en nombres propios', ['En todas las palabras', 'Solo al final de la oración'], { layout: 'list', hint: 'Piensa en «Diego vive en Querétaro.»', explain: 'Usamos mayúscula al empezar una oración y en los nombres propios.' });
+  if (Math.random() < 0.3) return mc('¿Cuándo usamos mayúscula?', 'Al empezar una oración y en nombres propios', ['En todas las palabras', 'Solo al final de la oración'], { layout: 'list', hint: 'Piensa en «carlo vive en Querétaro.»', explain: 'Usamos mayúscula al empezar una oración y en los nombres propios.' });
   const [s, w] = pick(MAY_FIX);
   return Object.assign({ type: 'mc', prompt: 'Toca la palabra que debe llevar mayúscula.', visual: { k: 'quote', text: s }, options: uniq(wordsOf(s)).map(x => O(x)), answer: w, layout: 'chips', hint: 'Revisa la primera palabra y los nombres.', explain: `«${cap(w)}» lleva mayúscula.` });
 };
 const PARRAFOS = [
-  ['Diego fue a la playa', 'Construyó un castillo de arena', 'Una ola lo tocó'],
+  ['carlo fue a la playa', 'Construyó un castillo de arena', 'Una ola lo tocó'],
   ['Tuga nadó por el arrecife', 'Encontró una concha brillante', 'Después regresó a casa', 'Estaba muy feliz'],
   ['Mamá compró mangos', 'Papá preparó agua fresca', 'Todos comieron en la terraza'],
 ];
@@ -1974,7 +1974,7 @@ Object.keys(SPELL_GROUPS).forEach(g => { GEN['sp_' + g] = (L, ctx, D) => spellQ(
 
 
 /* ================= NATURE & SOCIETY (English) ================= */
-LESSONS.nat_me = ['Your name, your age and the things you love make you who you are. Everyone is special in their own way.', 'My name is Diego. I am 7 years old.'];
+LESSONS.nat_me = ['Your name, your age and the things you love make you who you are. Everyone is special in their own way.', 'My name is carlo. I am 7 years old.'];
 LESSONS.nat_diff = ['Physical characteristics are things we can see: hair, eyes, height, skin. We can be similar in some ways and different in others, and that is great!', 'similar = the same     different = not the same'];
 LESSONS.nat_likes = ['We can say what we like and what we don\'t like. People can like different things, and that is okay.', 'I like mango.     I don\'t like loud noises.'];
 LESSONS.nat_body = ['Each body part has a job. The brain is the boss: it helps us think and controls the body. The senses send messages to the brain.', 'heart → pumps blood     lungs → breathe'];
@@ -1982,25 +1982,25 @@ LESSONS.nat_habits = ['Healthy habits keep us strong: eating well, sleeping enou
 LESSONS.nat_plate = ['The eat well plate has 3 groups: vegetables and fruits (green), cereals and grains (orange), legumes and animal foods (red). Eat lots of vegetables and fruits!', 'green: carrot     orange: rice     red: beans'];
 LESSONS.nat_active = ['Moving, playing, reading, sleeping and drinking water keep the brain and body healthy.', ''];
 LESSONS.civ_cuidado = ['Conocerme es saber qué siento y qué necesito. Cuidarme es protegerme: bloqueador, agua, descanso y pedir ayuda a un adulto de confianza.', ''];
-LESSONS.civ_ident = ['Todas las niñas y los niños tienen derecho a un nombre, a una nacionalidad y a ser registrados. El acta de nacimiento lo demuestra.', 'Diego · mexicano · acta de nacimiento'];
+LESSONS.civ_ident = ['Todas las niñas y los niños tienen derecho a un nombre, a una nacionalidad y a ser registrados. El acta de nacimiento lo demuestra.', 'carlo · mexicano · acta de nacimiento'];
 LESSONS.civ_dec = ['Puedo decir lo que pienso y siento con respeto. Para decidir, pienso en las opciones y en qué puede pasar.', ''];
 
 const NAT_INFO = [
-  ['Which sentence tells your NAME?', 'My name is Diego.', ['I am 7 years old.', 'I like turtles.']],
-  ['Which sentence tells your AGE?', 'I am 7 years old.', ['My name is Diego.', 'I live in Querétaro.']],
-  ['Which sentence tells something you LOVE?', 'I love sea turtles.', ['I am 7 years old.', 'My name is Diego.']],
-  ['Which sentence tells where you LIVE?', 'I live in Querétaro.', ['My name is Diego.', 'I love sea turtles.']],
-  ['Which sentence tells something you are GOOD at?', 'I am good at swimming.', ['I am 7 years old.', 'My name is Diego.']],
+  ['Which sentence tells your NAME?', 'My name is carlo.', ['I am 7 years old.', 'I like turtles.']],
+  ['Which sentence tells your AGE?', 'I am 7 years old.', ['My name is carlo.', 'I live in Querétaro.']],
+  ['Which sentence tells something you LOVE?', 'I love sea turtles.', ['I am 7 years old.', 'My name is carlo.']],
+  ['Which sentence tells where you LIVE?', 'I live in Querétaro.', ['My name is carlo.', 'I love sea turtles.']],
+  ['Which sentence tells something you are GOOD at?', 'I am good at swimming.', ['I am 7 years old.', 'My name is carlo.']],
   ['Which sentence tells your FAVORITE color?', 'My favorite color is blue.', ['I live in Querétaro.', 'I am 7 years old.']],
 ];
 GEN.nat_me = (L) => {
   if (L === 1) { const [q, a, d] = pick(NAT_INFO); return mc(q, a, d, { layout: 'list', hint: 'Name = what people call you. Age = how many years old you are.', explain: `"${a}"` }); }
   if (L === 2) {
-    if (Math.random() < 0.5) return mc('Diego turns 7 on October 24. How old is he after his birthday?', 7, [6, 8, 24], { layout: 'grid big', hint: 'He is 6 now. Add one year.', explain: '6 + 1 = 7. After his birthday Diego is 7 years old!' });
-    const w = pick([['My', 'name', 'is', 'Diego.'], ['I', 'am', 'seven', 'years', 'old.']]);
+    if (Math.random() < 0.5) return mc('carlo turns 7 on October 24. How old is he after his birthday?', 7, [6, 8, 24], { layout: 'grid big', hint: 'He is 6 now. Add one year.', explain: '6 + 1 = 7. After his birthday carlo is 7 years old!' });
+    const w = pick([['My', 'name', 'is', 'carlo.'], ['I', 'am', 'seven', 'years', 'old.']]);
     return { type: 'build', tk: 'word', prompt: 'Put the words in order to introduce yourself.', answer: w, tiles: shuffle(w), hint: 'The word with a capital letter goes first.', explain: w.join(' ') };
   }
-  if (Math.random() < 0.4) return mc('Diego and Leo are different. Is that okay?', 'Yes! Everyone is special in their own way.', ['No, everyone must be the same.', 'Only if they like the same games.'], { layout: 'list', hint: 'Think: what makes YOU special?', explain: 'Being different is okay. Everyone is special in their own way.' });
+  if (Math.random() < 0.4) return mc('carlo and Leo are different. Is that okay?', 'Yes! Everyone is special in their own way.', ['No, everyone must be the same.', 'Only if they like the same games.'], { layout: 'list', hint: 'Think: what makes YOU special?', explain: 'Being different is okay. Everyone is special in their own way.' });
   return mc('What makes a person special?', 'Their own talents, ideas and the things they love', ['Only the clothes they wear', 'Nothing, everyone is the same'], { layout: 'list', hint: 'Think about what makes YOU special.', explain: 'Everyone is special because of their talents, ideas and the things they love.' });
 };
 const PHYS = ['hair color', 'eye color', 'height', 'skin color', 'curly or straight hair'];
@@ -2016,7 +2016,7 @@ const LIKE_S = [['I like mango.', 'like'], ['I love swimming.', 'like'], ['I lik
 GEN.nat_likes = (L) => {
   if (L === 1) { const [t, a] = pick(LIKE_S); return Object.assign({ type: 'mc', prompt: 'Does this sentence tell a like or a dislike?', visual: { k: 'quote', text: t }, options: [O('like', 'like 👍'), O('dislike', 'dislike 👎')], answer: a, layout: 'grid big', hint: "Look for the word don't.", explain: a === 'like' ? 'It tells something they like.' : "\"Don't like\" tells a dislike." }); }
   if (L === 2) { const items = sample(LIKE_S.filter(x => x[1] === 'like'), 2).concat(sample(LIKE_S.filter(x => x[1] === 'dislike'), 2)).map(x => O(x[0], x[0], { bin: x[1] })); return sortQ('Sort the sentences: like or dislike?', [{ id: 'like', label: 'I like 👍' }, { id: 'dislike', label: "I don't like 👎" }], items, { hint: "Don't like = dislike.", explain: 'Sentences with "don\'t like" tell a dislike.' }); }
-  return mc('Diego likes octopuses. His friend does not. What is true?', 'People can like different things, and that is okay.', ['Only Diego is right.', 'Friends must like the same things.'], { layout: 'list', hint: 'Can friends like different things?', explain: 'People can like different things and still be friends.' });
+  return mc('carlo likes octopuses. His friend does not. What is true?', 'People can like different things, and that is okay.', ['Only carlo is right.', 'Friends must like the same things.'], { layout: 'list', hint: 'Can friends like different things?', explain: 'People can like different things and still be friends.' });
 };
 const BODY = [['brain', '🧠', 'think, learn and remember'], ['heart', '🫀', 'pump blood around your body'], ['lungs', '🫁', 'breathe'], ['stomach', null, 'digest your food'], ['bones', '🦴', 'hold your body up'], ['muscles', '💪', 'move'], ['eyes', '👀', 'see'], ['ears', '👂', 'hear'], ['nose', '👃', 'smell'], ['tongue', '👅', 'taste'], ['skin', '✋', 'feel and touch']];
 GEN.nat_body = (L) => {
@@ -2082,7 +2082,7 @@ GEN.civ_cuidado = (L) => {
 const IDENT = [
   ['¿Cuál es un derecho de todas las niñas y los niños?', 'Tener un nombre', ['Tener un celular', 'Tener muchos juguetes']],
   ['¿Qué documento muestra tu nombre, tu fecha y lugar de nacimiento?', 'El acta de nacimiento', ['La boleta de calificaciones', 'Un boleto de avión']],
-  ['Diego nació en México. Su nacionalidad es…', 'Mexicana', ['Japonesa', 'Francesa']],
+  ['carlo nació en México. Su nacionalidad es…', 'Mexicana', ['Japonesa', 'Francesa']],
   ['Tu nombre, tu familia y tu nacionalidad forman tu…', 'Identidad', ['Mochila', 'Tarea']],
   ['¿Quién tiene derecho a un nombre y una nacionalidad?', 'Todas las niñas y los niños', ['Solo los adultos', 'Solo algunos niños']],
   ['¿Por qué es importante tener un nombre?', 'Porque nos identifica y nos hace únicos', ['Porque es divertido', 'Porque solo lo pide la escuela']],
@@ -2382,8 +2382,8 @@ function recommendations(D) {
   TOPICS.forEach(t => {
     const s = D.topics[t.id]; if (!s || s.a < 3) return;
     const acc = s.fc / s.a; const st = topicStatus(s);
-    if (acc < 0.6) out.push(`Diego necesita más práctica con «${t.name}» (${s.fc} de ${s.a} al primer intento).`);
-    else if (st === 'mastered') out.push(`Diego va muy bien con «${t.name}».`);
+    if (acc < 0.6) out.push(`carlo necesita más práctica con «${t.name}» (${s.fc} de ${s.a} al primer intento).`);
+    else if (st === 'mastered') out.push(`carlo va muy bien con «${t.name}».`);
   });
   const weak = weakTopics(D, 1);
   if (weak.length && D.topics[weak[0]].a >= 3) out.push(`Para mañana: repasar «${TOPIC[weak[0]].name}» con el botón «Practicar lo que más me cuesta».`);
@@ -2394,11 +2394,11 @@ if (typeof module !== 'undefined') module.exports = { SPECIAL_CREATURES, banquet
 </script>
 <script>
 /* =================== STORY: all narrative text in one place ===================
-   Diego y la aventura de las 5 perlas de Cozumel. Five pearls light the paths of a magical (imaginary) reef.
-   A playful current scattered them and mixed up letters, clues and sounds. Diego finds them with his friends. */
+   carlo y la aventura de las 5 perlas de Cozumel. Five pearls light the paths of a magical (imaginary) reef.
+   A playful current scattered them and mixed up letters, clues and sounds. carlo finds them with his friends. */
 const STORY = {
-  title: 'Diego y la aventura de las 5 perlas de Cozumel',
-  welcome: { title: '¡Bienvenido a Cozumel!', text: '¡Diego, llegaste! Una corriente traviesa escondió nuestras cinco perlas y apagó las luces de los caminos. Nuestros amigos encontraron algunas pistas. ¿Nos ayudas a buscarlas?', go: '¡Vamos a buscarlas!' },
+  title: 'carlo y la aventura de las 5 perlas de Cozumel',
+  welcome: { title: '¡Bienvenido a Cozumel!', text: '¡carlo, llegaste! Una corriente traviesa escondió nuestras cinco perlas y apagó las luces de los caminos. Nuestros amigos encontraron algunas pistas. ¿Nos ayudas a buscarlas?', go: '¡Vamos a buscarlas!' },
   reefName: 'Tu arrecife',
   hostName: { tuga: 'Tuga', coralina: 'Coralina', rayito: 'Rayito', estelita: 'Estelita', burbujin: 'Burbujín', lumi: 'Lumi' },
   // One short arc per world: what the host needs, then one intro + one closure per mission.
@@ -2417,7 +2417,7 @@ const STORY = {
       arc: 'Rayito encontró un camino de conchas y figuras que lleva a la Perla de los Números.',
       m: [
         ['Rayito encontró un camino lleno de señales. Cuéntalas con él para saber hacia dónde ir.', '¡Contaste todas las señales! Más adelante, las conchas están en grupos.'],
-        ['¡Diegooo! Una corriente traviesa desordenó mi camino de conchas. ¡Ayúdame a reconstruirlo para llegar al otro lado!', '¡El camino de conchas está completo! Ahora Rayito sigue a saltos.'],
+        ['¡carlooo! Una corriente traviesa desordenó mi camino de conchas. ¡Ayúdame a reconstruirlo para llegar al otro lado!', '¡El camino de conchas está completo! Ahora Rayito sigue a saltos.'],
         ['Un delfín salta por la recta numérica. Sigue sus saltos para cruzar la bahía.', '¡Cruzaron la bahía! Del otro lado hay figuras en las rocas.'],
         ['Las rocas tienen figuras. Reconócelas para abrir el paso.', '¡Paso abierto! Solo queda un patrón: el espejo de Rayito.'],
         ['El espejo de Rayito guarda la perla. Resuelve el patrón final para abrirlo.', '¡El espejo se abrió y ahí estaba la Perla de los Números! Su luz ya ilumina otro camino del arrecife.'],
@@ -2454,7 +2454,7 @@ const STORY = {
       ],
     },
     nat: {
-      arc: 'Lumi prepara a Diego en el faro para conocerse, cuidarse y colaborar.',
+      arc: 'Lumi prepara a carlo en el faro para conocerse, cuidarse y colaborar.',
       m: [
         ['Lumi te espera en el faro. Un gran explorador primero se conoce a sí mismo. ¿Cómo eres tú?', '¡Lumi ya te conoce mejor! Ahora descubramos en qué nos parecemos y en qué somos diferentes.'],
         ['Todos somos distintos y eso está bien. Descubre con Lumi en qué nos parecemos.', '¡Muy bien! Ahora vamos a conocer el cuerpo y los sentidos.'],
@@ -2492,7 +2492,7 @@ const STORY = {
     locked: n => `Se abre cuando encuentres las 5 perlas. Llevas ${n} de 5.`,
     ready: '¡Ya tienes las 5 perlas! Enciéndelas juntas.',
     doneMap: 'Las 5 perlas brillan juntas. Puedes jugarlo otra vez.',
-    closing: '¡Lo hiciste, Diego! Las cinco perlas brillan juntas y los caminos vuelven a iluminarse. Exploraste, aprendiste y ayudaste a tus amigos. ¡Eres Guardián del Arrecife!',
+    closing: '¡Lo hiciste, carlo! Las cinco perlas brillan juntas y los caminos vuelven a iluminarse. Exploraste, aprendiste y ayudaste a tus amigos. ¡Eres Guardián del Arrecife!',
     again: 'Volviste a encender las cinco perlas. ¡Qué buen repaso, Guardián!',
   },
   bonus: { title: 'Más aventuras con tus amigos', text: 'Crea, juega y conoce nuevos amigos. Puedes visitarlos cuando quieras.' },
@@ -2502,7 +2502,7 @@ const STORY = {
     card: '¡Prepara un banquete y conoce a 5 nuevos amigos!',
   },
 };
-// Each host's own voice when Diego gets it right ('ok') or needs a hint ('hint'), in the exercise's language.
+// Each host's own voice when carlo gets it right ('ok') or needs a hint ('hint'), in the exercise's language.
 STORY.voice = {
   coralina: { en: { ok: ['Another word for my message!', 'The bottle message is getting clearer!', 'You cracked it! My shells are dancing!'], hint: ['Hmm, that word got tangled. Look again!', 'Let me untangle it with you. Try another one!'] },
               es: { ok: ['¡Otra palabra para mi mensaje!', '¡El mensaje de la botella ya se entiende mejor!'], hint: ['Esa palabra se enredó. ¡Mírala otra vez!'] } },
@@ -2510,7 +2510,7 @@ STORY.voice = {
             es: { ok: ['¡Splash! ¡El camino creció!', '¡Contado! ¡Eso merece una voltereta!'], hint: ['¡Ups! Una conchita se escapó de mi cuenta. ¡Contemos otra vez!'] } },
   tuga: { en: { ok: ['Another page of the diary is back!', 'Yes! Now the story makes sense!', 'You found it, explorer!'], hint: ['Let\'s read that part slowly together.', 'The diary has a clue. Look again!'] },
           es: { ok: ['¡Otra página del diario regresó!', '¡Ahora la historia tiene sentido!', '¡Lo encontraste, explorador!'], hint: ['Leamos esa parte despacito.', 'El diario tiene una pista. ¡Mira otra vez!'] } },
-  estelita: { es: { ok: ['¡Otra palabra brilla en la arena!', '¡La guía de la isla ya se lee mejor!', '¡Qué bonito escribes, Diego!'], hint: ['La ola borró una parte. ¡Léela otra vez!', 'Mmm, esa letra se escondió. ¡Búscala de nuevo!'] },
+  estelita: { es: { ok: ['¡Otra palabra brilla en la arena!', '¡La guía de la isla ya se lee mejor!', '¡Qué bonito escribes, carlo!'], hint: ['La ola borró una parte. ¡Léela otra vez!', 'Mmm, esa letra se escondió. ¡Búscala de nuevo!'] },
               en: { ok: ['Another word shines in the sand!'], hint: ['A wave erased part of it. Look again!'] } },
   burbujin: { en: { ok: ['Bloop, bloop! The chest heard that!', 'Click! That sound fits the lock!', 'Bubbles everywhere! You spelled it!'], hint: ['Bloop? The lock didn\'t hear it. Listen again!', 'Say it slowly, sound by sound!'] },
               es: { ok: ['¡Bloop, bloop! ¡El cofre lo escuchó!'], hint: ['¿Bloop? La cerradura no lo oyó. ¡Escucha otra vez!'] } },
@@ -2550,7 +2550,7 @@ const CHAR_ART = {
   burbujin: { src: './assets/characters/burbujin.png', w: 720, h: 533, k: 1.15 },
   pincelin: { src: './assets/characters/pincelin.png', w: 720, h: 571, k: 1.15 },
   'captain-rhythm': { src: './assets/characters/captain-rhythm.png', w: 720, h: 481, k: 1.1 },
-  diego: { src: './assets/characters/diego.png', w: 720, h: 681, k: 1 },
+  carlo: { src: './assets/characters/carlo.png', w: 720, h: 681, k: 1 },
 };
 // Rendered as <svg><image> so the same component works inside HTML and inside SVG scenes; exact aspect ratio, never stretched.
 function CharImg({ id, size = 100, cls = '' }) {
@@ -2563,8 +2563,8 @@ const Coralina = ({ size = 100, cls = '' }) => html`<${CharImg} id="coralina" si
 const Estelita = ({ size = 100, cls = '' }) => html`<${CharImg} id="estelita" size=${size} cls=${cls}/>`;
 const Lumi = ({ size = 100, cls = '' }) => html`<${CharImg} id="lumi" size=${size} cls=${cls}/>`;
 const Burbujin = ({ size = 100, cls = '' }) => html`<${CharImg} id="burbujin" size=${size} cls=${cls}/>`;
-const Diego = ({ size = 90, cls = '' }) => html`<${CharImg} id="diego" size=${size} cls=${cls}/>`;
-const GUIDES = { tuga: Tuga, burbujin: Burbujin, coralina: Coralina, estelita: Estelita, lumi: Lumi, rayito: Rayito, diego: Diego };
+const carlo = ({ size = 90, cls = '' }) => html`<${CharImg} id="carlo" size=${size} cls=${cls}/>`;
+const GUIDES = { tuga: Tuga, burbujin: Burbujin, coralina: Coralina, estelita: Estelita, lumi: Lumi, rayito: Rayito, carlo: carlo };
 const GUIDE_NAMES = { tuga: 'Tuga', burbujin: 'Burbujín', coralina: 'Coralina', estelita: 'Estelita', lumi: 'Lumi', rayito: 'Rayito' };
 function Guide({ id, size, cls }) { const C = GUIDES[id] || Tuga; return html`<${C} size=${size} cls=${cls}/>`; }
 
@@ -2929,8 +2929,8 @@ function HeroScene() {
     <g className="tuga-peek"><g transform="translate(140 80)"><${Tuga} size=${120}/></g></g>
   </svg>`;
 }
-// Home reef: fixed slots around Diego (never random). Order alternates sides so any count stays balanced.
-// [center x %, top %, scale, depth] — depth 0 = farther (behind Diego), 1 = in front of the sand.
+// Home reef: fixed slots around carlo (never random). Order alternates sides so any count stays balanced.
+// [center x %, top %, scale, depth] — depth 0 = farther (behind carlo), 1 = in front of the sand.
 const SCENE_SLOTS = [
   [86, 6, 1, 1], [10, 8, .95, 1], [90, 50, .9, 1], [76, 70, .85, 1],
   [28, 5, .8, 0], [96, 28, .75, 0], [6, 44, .8, 1], [72, 3, .7, 0],
@@ -2948,10 +2948,10 @@ function SceneCreature({ id, slot, i, many, arrive }) {
 const RewardBackdrop = () => html`<div className="reward-backdrop" aria-hidden="true"></div>`;
 function HomeScene({ data }) {
   const list = CREATURES.filter(c => data.creatures.includes(c.id)).concat(SPECIAL_CREATURES.filter(c => banquetOf(data).creatures.includes(c.id)));
-  // Diego starts alone; only creatures he has discovered swim with him. Narrative characters (Tuga and the other
+  // carlo starts alone; only creatures he has discovered swim with him. Narrative characters (Tuga and the other
   // hosts) are not collectibles, so they do not appear here.
-  const label = 'Diego nada en el arrecife de Cozumel' + (list.length ? ` con ${list.length} ${list.length === 1 ? 'amigo que descubrió' : 'amigos que descubrió'}` : '');
-  const D = CHAR_ART.diego;
+  const label = 'carlo nada en el arrecife de Cozumel' + (list.length ? ` con ${list.length} ${list.length === 1 ? 'amigo que descubrió' : 'amigos que descubrió'}` : '');
+  const D = CHAR_ART.carlo;
   // A friend that joined since the last visit arrives with a short swim-in, once (remembered in data.reefSeen).
   const seen = data.reefSeen; const arrived = Array.isArray(seen) ? list.filter(c => !seen.includes(c.id)).map(c => c.id) : [];
   const lit = MAIN.filter(s => data.pearls.includes(s.id));
@@ -2959,7 +2959,7 @@ function HomeScene({ data }) {
     ${MAIN.map((s, i) => data.pearls.includes(s.id) ? html`<${React.Fragment} key=${s.id}><span className="scene-light" style=${{ left: (10 + i * 20) + '%', '--lc': s.color }} aria-hidden="true"></span><span className="scene-lamp" style=${{ left: (10 + i * 20) + '%' }} aria-hidden="true"><${Pearl} p=${1} size=${30}/></span></${React.Fragment}>` : null)}
     ${list.map((c, i) => html`<${SceneCreature} key=${c.id} id=${c.id} slot=${SCENE_SLOTS[i % SCENE_SLOTS.length]} i=${i} many=${list.length > 12} arrive=${arrived.includes(c.id)}/>`)}
     <div className="scene-anchor">
-      <div className="scene-diego"><img src=${D.src} width=${D.w} height=${D.h} alt="" draggable="false"/></div>
+      <div className="scene-carlo"><img src=${D.src} width=${D.w} height=${D.h} alt="" draggable="false"/></div>
     </div>
   </div>`;
 }
@@ -2986,19 +2986,19 @@ function useCoralFit(rootRef, cardRef, coralRef) {
   }, []);
 }
 const CoralForeground = ({ coralRef }) => html`<img className="home-coral-foreground" ref=${coralRef} src="./assets/ui/corales-overlay.png" width="2172" height="724" alt="" aria-hidden="true" draggable="false"/>`;
-// Optical size of each guide next to Diego: height factor so its visible silhouette has ~80% of Diego's
+// Optical size of each guide next to carlo: height factor so its visible silhouette has ~80% of carlo's
 // visible area (measured from the opaque pixels of each official PNG).
 const GUIDE_OPTICAL = { tuga: 0.674, rayito: 0.735, coralina: 0.676, estelita: 0.92, lumi: 0.839, burbujin: 0.722 };
-// Shared pre-activity screen: reef background, cream card, Diego + the world's guide on the card's top edge.
+// Shared pre-activity screen: reef background, cream card, carlo + the world's guide on the card's top edge.
 function MissionIntroCard({ title, mission, message, audioText, info, guide, onBack, onGo, goLabel = '¡Vamos!', backLabel = 'Volver' }) {
   const rootRef = useRef(null), cardRef = useRef(null), coralRef = useRef(null);
   useCoralFit(rootRef, cardRef, coralRef);
-  const D = CHAR_ART.diego, G = CHAR_ART[guide] || CHAR_ART.tuga;
+  const D = CHAR_ART.carlo, G = CHAR_ART[guide] || CHAR_ART.tuga;
   return html`<div className="screen mi-screen" ref=${rootRef}>
     <div className="mi-wrap">
       <div className="mi-card" ref=${cardRef}>
         <div className="mi-chars" aria-hidden="true">
-          <img className="mi-diego" src=${D.src} width=${D.w} height=${D.h} alt="" draggable="false"/>
+          <img className="mi-carlo" src=${D.src} width=${D.w} height=${D.h} alt="" draggable="false"/>
           ${guide ? html`<img className=${'mi-guide g-' + guide} src=${G.src} width=${G.w} height=${G.h} alt="" draggable="false" style=${{ '--gk': GUIDE_OPTICAL[guide] || 0.8 }}/>` : null}
         </div>
         <h1 className="mi-title">${title}</h1>
@@ -3030,7 +3030,7 @@ function Home({ data, go, stored, saveFail, setData }) {
     <div className="home-card-wrap">
     <div className="home-card panel" ref=${cardRef}>
       <p className="eyebrow">${STORY.title}</p>
-      <h1>${data.guardian ? '¡Diego, Guardián del Arrecife!' : data.pearls.length ? `¡Ya ${data.pearls.length === 1 ? 'brilla' : 'brillan'} ${data.pearls.length} de 5 perlas!` : '¡Diego, el arrecife te necesita!'}</h1>
+      <h1>${data.guardian ? '¡carlo, Guardián del Arrecife!' : data.pearls.length ? `¡Ya ${data.pearls.length === 1 ? 'brilla' : 'brillan'} ${data.pearls.length} de 5 perlas!` : '¡carlo, el arrecife te necesita!'}</h1>
       ${where ? html`<p className="home-where"><b>${where[0]}</b> ${where[1]}</p>` : null}
       <div className="home-btns">
         <button className="btn go big" onClick=${() => go(!data.introSeen ? 'intro' : 'map')}>${data.activeSession ? '¡Seguir donde me quedé!' : data.sessions || data.totalQ ? '¡Seguir la aventura!' : '¡Comenzar aventura!'}</button>
@@ -3053,7 +3053,7 @@ function Intro({ go, setData }) {
 function Checkin({ onPick, onBack }) {
   const keys = Object.keys(THEMES);
   return html`<div className="screen center"><div className="panel">
-    <div className="row-head"><${Diego} size=${100}/><div><h2>¿Qué exploraste hoy?</h2><p className="muted">Cuéntale a Tuga qué hiciste hoy. ¡Lo usará en tus historias! (Es opcional.)</p></div></div>
+    <div className="row-head"><${carlo} size=${100}/><div><h2>¿Qué exploraste hoy?</h2><p className="muted">Cuéntale a Tuga qué hiciste hoy. ¡Lo usará en tus historias! (Es opcional.)</p></div></div>
     <div className="theme-grid">${keys.map(k => html`<button key=${k} className="theme-btn" onClick=${() => onPick(k)}><span className="emo">${THEMES[k].icon}</span><span>${THEMES[k].label}</span></button>`)}</div>
     <button className="btn ghost" onClick=${onBack}>Volver al mapa</button>
   </div></div>`;
@@ -3109,7 +3109,7 @@ function MapScreen({ data, startWorld, startDaily, startFinal, startContinue, go
     <button className="btn ghost surprise" onClick=${startDaily}><${Icon} n="dice"/> Misión sorpresa: retos de todos los mundos</button>
     <h3 className="map-sec">${STORY.bonus.title} <small>${STORY.bonus.text}</small></h3>
     <button className="studio-entry panel nat-entry" onClick=${() => startWorld('nat')}><${Guide} id=${SUBJ.nat.guide} size=${104}/><div><span className="eyebrow">Nature & Society · Cívica</span><strong>${SUBJ.nat.world}</strong><span>${natDone ? '✓ Insignia Explorador del Océano ganada · misiones abiertas para practicar' : 'Termina las 5 misiones y gana la insignia Explorador del Océano'}</span><${MissionSegments} data=${data} sid="nat" compact=${true}/></div><span className="arrow">›</span></button>
-    <button className="studio-entry panel bq-entry" onClick=${() => go('banquet')}><${Diego} size=${100}/><div><span className="eyebrow">Alimentación · Español</span><strong>El Banquete Secreto del Arrecife</strong><span>${STORY.banquet.card}</span><${BqSegments} data=${data} compact=${true}/></div><span className="arrow">›</span></button>
+    <button className="studio-entry panel bq-entry" onClick=${() => go('banquet')}><${carlo} size=${100}/><div><span className="eyebrow">Alimentación · Español</span><strong>El Banquete Secreto del Arrecife</strong><span>${STORY.banquet.card}</span><${BqSegments} data=${data} compact=${true}/></div><span className="arrow">›</span></button>
     <button className="studio-entry panel music-entry" onClick=${() => go('music')}><${CaptainRhythm} size=${100}/><div><span className="eyebrow">Music · English</span><strong>The Tropical Orchestra</strong><span>Play, sing, discover, and create!</span></div><span className="arrow">›</span></button>
     <button className="studio-entry panel" onClick=${() => go('art')}><${Pincelin} size=${92}/><div><span className="eyebrow">Arte · Español</span><strong>El Taller Secreto del Artista</strong><span>Los bodegones de Cozumel</span></div><span className="arrow">›</span></button>
   </div>`;
@@ -3179,12 +3179,12 @@ function Play({ sess, cur, onFirst, onDone, onLessonDone, onQuit, familyOk, savi
     <div className="panel qcard">${cur.lesson ? html`<${LessonCard} topic=${cur.lesson} onGo=${onLessonDone}/>` : html`<${Question} key=${q.key + sess.idx} q=${q} guide=${helperOf(q.topic)} onFirst=${onFirst} onDone=${onDone} familyOk=${familyOk}/>`}</div>
   </div>`;
 }
-// Final scene: Diego in the center with the five pearl hosts, plus optional friends he already met.
+// Final scene: carlo in the center with the five pearl hosts, plus optional friends he already met.
 function FinalCast({ data }) {
   const extra = [(data.ach || []).includes('ocean') || (data.played || {}).nat ? 'lumi' : null, (data.art || {}).seen ? 'pincelin' : null, musicOf(data).seen ? 'captain-rhythm' : null].filter(Boolean);
   const left = ['coralina', 'rayito', 'tuga'], right = ['estelita', 'burbujin'].concat(extra);
   const one = id => html`<span key=${id} className="fc-host"><${CharImg} id=${id} size=${64}/></span>`;
-  return html`<div className="final-cast" aria-label="Diego con sus amigos"><div className="fc-side">${left.map(one)}</div><span className="fc-diego"><${Diego} size=${150}/></span><div className="fc-side">${right.map(one)}</div></div>`;
+  return html`<div className="final-cast" aria-label="carlo con sus amigos"><div className="fc-side">${left.map(one)}</div><span className="fc-carlo"><${carlo} size=${150}/></span><div className="fc-side">${right.map(one)}</div></div>`;
 }
 // Shared result screen. Order: 1 result · 2 story consequence (host) · 3 one main reward · 4 secondary results/progress · 5 actions.
 function Summary({ sum, data, onContinue, onMap, onHome, onCert, onMissions }) {
@@ -3263,7 +3263,7 @@ function Collection({ data, go }) {
     <div className="col-tabs" role="tablist" aria-label="Partes de mi colección">${tabs.map(([k, l, n]) => html`<button key=${k} role="tab" id=${'ct-' + k} aria-selected=${tab === k} aria-controls="col-panel" className=${tab === k ? 'on' : ''} onClick=${() => pick(k)}>${l}<small>${n}</small></button>`)}</div>
     <div id="col-panel" role="tabpanel" aria-labelledby=${'ct-' + tab}>
     ${tab === 'creatures' ? html`<${React.Fragment}>
-      ${!foundAll ? html`<div className="panel empty-state"><${Diego} size=${120}/><div><h3>¡Tu primera criatura te espera!</h3><p>Cada misión que terminas descubre una criatura nueva del arrecife.</p><button className="btn go" onClick=${() => go('map')}>Ir a mi misión</button></div></div>` : html`<p className="col-intro">Toca una criatura para ver qué descubriste.</p>`}
+      ${!foundAll ? html`<div className="panel empty-state"><${carlo} size=${120}/><div><h3>¡Tu primera criatura te espera!</h3><p>Cada misión que terminas descubre una criatura nueva del arrecife.</p><button className="btn go" onClick=${() => go('map')}>Ir a mi misión</button></div></div>` : html`<p className="col-intro">Toca una criatura para ver qué descubriste.</p>`}
       <div className="cards">${CREATURES.map(c => { const has = data.creatures.includes(c.id); return has
         ? html`<button key=${c.id} className=${'ccard' + (c.rare ? ' rare' : '')} onClick=${() => setOpen(c)} aria-label=${c.es + ': ver detalles'}><${CreatureArt} id=${c.id} size=${110}/><h4>${c.es}</h4><p className="en">${c.en}</p></button>`
         : html`<div key=${c.id} className=${'ccard locked' + (c.rare ? ' rare' : '')}><${CreatureArt} id=${c.id} size=${90} locked=${true}/><h4>???</h4><p>${c.rare ? 'Criatura especial' : 'Por descubrir'}</p></div>`; })}</div>
@@ -3332,7 +3332,7 @@ function Parent({ data, setData, go, startCfg, stored, saveFail }) {
   const subTopics = TOPICS.filter(t => t.s === subj);
   const toggle = id => setSel(s => s.includes(id) ? s.filter(x => x !== id) : s.concat(id));
   const makeReport = () => {
-    const lines = [`Reporte de Diego · ${new Date().toLocaleDateString('es-MX', { dateStyle: 'long' })}`, `Misiones completas: ${data.sessions} · Retos: ${att} · Primer intento: ${fc} (${att ? Math.round(fc / att * 100) : 0}%)`, `Perlas: ${data.pearls.length}/5 · Criaturas: ${data.creatures.length}/12`, ''];
+    const lines = [`Reporte de carlo · ${new Date().toLocaleDateString('es-MX', { dateStyle: 'long' })}`, `Misiones completas: ${data.sessions} · Retos: ${att} · Primer intento: ${fc} (${att ? Math.round(fc / att * 100) : 0}%)`, `Perlas: ${data.pearls.length}/5 · Criaturas: ${data.creatures.length}/12`, ''];
     SUBJECTS.forEach(s => { const ad = adventureProgress(data, s.id); lines.push(`${s.name}${s.bonus ? ' (bonus)' : ''}: aventura ${ad.missions}/${ad.need} misiones${ad.legacy ? ` (+${ad.legacy} anteriores)` : ''}, ${ad.explored}/${ad.total} temas explorados`); TOPICS.filter(t => t.s === s.id).forEach(t => { const st = data.topics[t.id]; lines.push(`  · ${t.name}: ${STATUS_ES[topicStatus(st)]}${st ? ` (${st.fc}/${st.a})` : ''}`); }); });
     lines.push('', 'Recomendaciones:'); recs.forEach(r => lines.push('  · ' + r));
     setReport(lines.join('\n'));
@@ -3352,10 +3352,10 @@ function Parent({ data, setData, go, startCfg, stored, saveFail }) {
       <p className="muted">Última actividad: ${last}</p></section>
     <section className="panel"><h3>Recomendaciones</h3>${recs.length ? html`<ul className="recs">${recs.map((r, i) => html`<li key=${i}>${r}</li>`)}</ul>` : html`<p className="muted">Sin recomendaciones todavía.</p>`}
       <button className="btn go" disabled=${!weak.length} onClick=${() => startCfg({ mode: 'review', topics: weak, len: 8 })}>Practicar lo que más me cuesta</button>
-      ${!weak.length ? html`<p className="muted">Se activa cuando Diego tenga algún error registrado.</p>` : null}
+      ${!weak.length ? html`<p className="muted">Se activa cuando carlo tenga algún error registrado.</p>` : null}
       ${missed.length ? html`<${React.Fragment}><h4>Conceptos que más se fallan</h4><ul className="recs">${missed.map(x => html`<li key=${x.t.id}>${x.t.name} · ${x.s.wrong} ${x.s.wrong === 1 ? 'error' : 'errores'} en ${x.s.a} ${x.s.a === 1 ? 'intento' : 'intentos'}</li>`)}</ul></${React.Fragment}>` : null}</section>
     <section className="panel"><h3>Progreso por materia</h3>
-      <p className="muted">Son dos medidas distintas. <b>Aventura:</b> las 5 misiones de cada mundo; al terminar las 5, Diego gana la perla aunque se equivoque. <b>Dominio:</b> la barra cuenta los temas que ya están en «Mejorando» o «Dominado» según varios intentos. «Dominado» pide nivel 3 y 80% de aciertos recientes.</p>
+      <p className="muted">Son dos medidas distintas. <b>Aventura:</b> las 5 misiones de cada mundo; al terminar las 5, carlo gana la perla aunque se equivoque. <b>Dominio:</b> la barra cuenta los temas que ya están en «Mejorando» o «Dominado» según varios intentos. «Dominado» pide nivel 3 y 80% de aciertos recientes.</p>
       ${SUBJECTS.map(s => { const p = subjectProgress(data, s.id); const ad = adventureProgress(data, s.id); const won = s.bonus ? data.ach.includes('ocean') : data.pearls.includes(s.id); return html`<details key=${s.id} className="subj-d"><summary><span className="sd-name">${s.name}${s.bonus ? ' (bonus)' : ''}</span><div className="bar"><i style=${{ width: Math.round(p.p * 100) + '%', background: s.color }}></i></div><span className="sd-n">${p.done}/${p.total}</span></summary>
         <p className="adv-line">Aventura: misiones ${ad.missions}/${ad.need}${ad.legacy ? ` · ${ad.legacy} ${ad.legacy === 1 ? 'misión anterior' : 'misiones anteriores'} (versión de 2 misiones)` : ''} · ${won ? (s.bonus ? 'insignia Explorador del Océano ganada' : 'perla ganada') : (s.bonus ? 'insignia pendiente' : 'perla pendiente')}</p>
         <div className="tbl-wrap" tabIndex="0" role="region" aria-label="Tabla"><table className="tbl"><thead><tr><th>Tema</th><th>Estado</th><th>1er intento</th><th>Nivel</th></tr></thead><tbody>${TOPICS.filter(t => t.s === s.id).map(t => { const st = data.topics[t.id]; const k = topicStatus(st); return html`<tr key=${t.id}><td>${t.name}</td><td><span className=${'pill ' + k}>${STATUS_ES[k]}</span></td><td>${st ? `${st.fc}/${st.a}` : '—'}</td><td>${st ? ['', 'Descubrir', 'Explorar', 'Dominar'][st.lvl] : '—'}</td></tr>`; })}</tbody></table></div>
@@ -3414,7 +3414,7 @@ function mergeProgress(cur, bk) {
   }
   return n;
 }
-const backupName = () => { const d = new Date(); const p = x => String(x).padStart(2, '0'); return `perlas-diego-${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}.json`; };
+const backupName = () => { const d = new Date(); const p = x => String(x).padStart(2, '0'); return `perlas-carlo-${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}.json`; };
 function parseBackup(text) {
   const j = JSON.parse(String(text).trim()); const d = j && j.data ? j.data : j;
   if (!d || typeof d !== 'object' || !('topics' in d) || !Array.isArray(d.pearls)) throw new Error('x');
@@ -3471,7 +3471,7 @@ function Certificate({ data, go }) {
     <div className="cert-in">
       <${FinalCast} data=${data}/>
       <p className="eyebrow">Certificado oficial del arrecife</p>
-      <h1>Diego Aceves</h1><h2>Guardián del Arrecife de Cozumel</h2>
+      <h1>carlo Aceves</h1><h2>Guardián del Arrecife de Cozumel</h2>
       <p>${STORY.certificate}</p>
       <div className="g-pearls">${MAIN.map(s => html`<div key=${s.id}><${Pearl} p=${1} size=${60}/><small>${s.pearl}</small></div>`)}</div>
       <div className="sign"><span>Tuga<br/><small>Tortuga mayor del arrecife</small></span><span>${d}<br/><small>Cozumel, Quintana Roo</small></span></div>
@@ -3579,7 +3579,7 @@ const ART_STATE = { dirty: false };
 // Warn before closing/reloading the page while a painting has unsaved strokes.
 try { window.addEventListener('beforeunload', e => { if (ART_STATE.dirty) { e.preventDefault(); e.returnValue = ''; } }); } catch (e) { }
 function loadGallery() { try { const r = localStorage.getItem(GALLERY_KEY); return r ? JSON.parse(r) : []; } catch (e) { return []; } }
-// Paintings share the browser's ~5 MB storage with Diego's progress. Cap the gallery so it can never
+// Paintings share the browser's ~5 MB storage with carlo's progress. Cap the gallery so it can never
 // starve the main save; over the cap a painting stays "solo en esta sesión" (existing message).
 const GALLERY_MAX_CHARS = 3000000;
 // Editable paint layers (transparent PNG of the strokes) live in IndexedDB, keyed by artwork id, so the
@@ -4135,7 +4135,7 @@ function Gallery({ onBack, onContinue, onNew }) {
   const rename = a => { const l = list.map(x => x.id === a.id ? Object.assign({}, x, { title: name.trim() || x.title }) : x); if (!a.persisted) { const s = SESSION_ART.find(x => x.id === a.id); if (s) s.title = name.trim() || s.title; } persist(l); setList(l); setEdit(null); };
   const remove = a => { layerDel(a.id); imgDel(a.id); const l = list.filter(x => x.id !== a.id); const i = SESSION_ART.findIndex(x => x.id === a.id); if (i >= 0) SESSION_ART.splice(i, 1); persist(l); setList(l); setDel(null); };
   return html`<div className="gallery">
-    <div className="gal-head"><h2>La Galería de Diego Aceves</h2>${list.length ? html`<button className="btn go" onClick=${onNew}><${BrushIcon} k="pincel"/> Pintar una obra nueva</button>` : null}</div>
+    <div className="gal-head"><h2>La Galería de carlo Aceves</h2>${list.length ? html`<button className="btn go" onClick=${onNew}><${BrushIcon} k="pincel"/> Pintar una obra nueva</button>` : null}</div>
     ${list.some(a => !a.persisted) ? html`<p className="panel warn-panel" role="status">⚠ Algunas obras no caben en este dispositivo y se borrarán al cerrar el juego. Mantén presionada su imagen para guardarla en tus fotos, o pide a mamá o papá una copia de seguridad.</p>` : null}
     ${!list.length ? html`<div className="panel empty-gal"><${Pincelin} size=${110}/><p>Aquí vivirán tus obras de arte.</p><button className="btn go big" onClick=${onNew}><${BrushIcon} k="pincel"/> Pintar mi primera obra</button></div>` : null}
     <div className="frames">${list.map(a => html`<figure key=${a.id} className="frame"><div className="frame-wood">${a.img || imgs[a.id] ? html`<img src=${a.img || imgs[a.id]} alt=${a.title}/>` : html`<div className="img-wait" role="img" aria-label=${a.title}></div>`}</div>
@@ -4172,8 +4172,8 @@ function ArtStudio({ data, setData, go }) {
   let body;
   if (won) body = html`<div className="panel"><${BadgeWin} id=${won} onBack=${() => { setWon(null); setView('hub'); }}/></div>`;
   else if (view === 'story') body = html`<div className="panel story-card"><${Pincelin} size=${170} cls="float"/>
-    <p className="speech">Cerca de la playa, Diego encontró un viejo taller escondido entre palmeras. Adentro, un pulpo con boina pintaba con sus ocho brazos.</p>
-    <p className="speech">«¡Hola, Diego! Soy Pincelín. Estoy preparando una exposición de bodegones, ¡pero mis cuadros están sin terminar! Tus pinturas serán parte de la exposición. ¿Me ayudas a descubrir los secretos de los artistas? Así te convertirás en <b>Artista del Arrecife</b>, con especialidad en bodegón tropical.»</p>
+    <p className="speech">Cerca de la playa, carlo encontró un viejo taller escondido entre palmeras. Adentro, un pulpo con boina pintaba con sus ocho brazos.</p>
+    <p className="speech">«¡Hola, carlo! Soy Pincelín. Estoy preparando una exposición de bodegones, ¡pero mis cuadros están sin terminar! Tus pinturas serán parte de la exposición. ¿Me ayudas a descubrir los secretos de los artistas? Así te convertirás en <b>Artista del Arrecife</b>, con especialidad en bodegón tropical.»</p>
     <button className="btn go big" onClick=${() => { setData(d => Object.assign({}, d, { art: Object.assign({ badges: [] }, d.art || {}, { seen: true }) })); setView('hub'); }}>¡Claro que sí!</button></div>`;
   else if (view === 'hub') body = html`<div className="studio-hub">
     <div className="panel studio-head"><${Pincelin} size=${96}/><div><p className="eyebrow">Los bodegones de Cozumel</p><h2>El Taller Secreto del Artista</h2>
@@ -4657,7 +4657,7 @@ function randomGrid() {
 function playCell(g, step, t) { const inst = FG_BY[g].inst; AudioEng.play(inst, t, ROW_NOTES[g] ? ROW_NOTES[g][step] : undefined, g === 'dairy' ? 0.35 : undefined); }
 const SPEEDS = [60, 72, 84, 96, 104, 116, 128, 140, 152, 168];
 function Sequencer({ init, onPlay, onSave, compact, draft, onDraft, saveLabel, onSaveCopy }) {
-  // draft = the unsaved song from last time (kept automatically); it comes back when Diego returns
+  // draft = the unsaved song from last time (kept automatically); it comes back when carlo returns
   const hasDraft = !init && draft && draft.g && FOOD_GROUPS.some(x => (draft.g[x.id] || []).some(Boolean));
   const [grid, setGrid] = useState(() => init ? clone(init.g) : hasDraft ? clone(draft.g) : emptyGrid()); const [bpm, setBpm] = useState(init ? init.bpm : hasDraft ? draft.bpm || 104 : 104);
   const [restored] = useState(hasDraft);
@@ -4711,7 +4711,7 @@ function Mission6M({ mus, upd, award, back }) {
   const mcBtns = (opts, label, ans, onOk) => html`<div className="opts grid big">${opts.map(o => html`<button key=${o} className=${'opt' + (wrong.includes(o) ? ' wrong' : '') + (ok && o === ans ? ' right' : '')} onClick=${() => { if (ok) return; if (o === ans) { setOk(true); onOk && onOk(); } else setWrong(w => w.concat(o)); }}>${label(o)}</button>`)}</div>`;
   const okBar = text => ok ? html`<div className="yay"><strong>${text}</strong><button className="btn go" onClick=${next}>Next stage</button></div>` : null;
   let body;
-  if (stage === 0) body = html`<div><${Say} who="captain">Diego! It's concert time! You're our conductor! First: which group is this food in?<//>
+  if (stage === 0) body = html`<div><${Say} who="captain">carlo! It's concert time! You're our conductor! First: which group is this food in?<//>
     <div className="one-inst"><span className="emo huge">${food.e}</span><strong>${food.w}</strong></div>
     ${mcBtns(foodOpts, g => FG_BY[g].label, food.g, () => { AudioEng.play('chime'); upd(m => { const f = m.food[food.g] || [0, 0]; f[0]++; f[1]++; m.food[food.g] = f; }); })}${okBar('Yes! ' + cap(food.w) + ' is ' + FG_BY[food.g].label + '.')}</div>`;
   else if (stage === 1) body = html`<div><${Say} who="captain">Copy my rhythm!<//><${FollowRhythm} level=${2} rounds=${1} compact=${true} rec=${() => { }} onDone=${() => { upd(m => { m.rhythm.follow++; }); next(); }}/></div>`;
@@ -4724,8 +4724,8 @@ function Mission6M({ mus, upd, award, back }) {
   else body = html`<div className="celebration">
     <div className="stage-lights" aria-hidden="true">${[0, 1, 2, 3, 4].map(k => html`<i key=${k} style=${{ animationDelay: k * 0.2 + 's' }}></i>`)}</div>
     <div className="dancers">${[CaptainRhythm, Tuga, MelodyFish, Burbujin].map((C, k) => html`<div key=${k} className="dance" style=${{ animationDelay: k * 0.15 + 's' }}><${C} size=${80}/></div>`)}</div>
-    <${MasterBadge}/><p className="eyebrow">Great Caribbean Music Festival</p><h2>DIEGO ACEVES</h2><h3>TROPICAL MUSIC MASTER</h3>
-    <${Say} who="captain">Snap snap HOORAY! You were an amazing conductor, Diego!<//>
+    <${MasterBadge}/><p className="eyebrow">Great Caribbean Music Festival</p><h2>carlo ACEVES</h2><h3>TROPICAL MUSIC MASTER</h3>
+    <${Say} who="captain">Snap snap HOORAY! You were an amazing conductor, carlo!<//>
     <div className="row-btns"><button className="btn ghost" onClick=${celebrate}><${Icon} n="replay"/> Play the band again</button><button className="btn go" onClick=${back}>Back to the stage</button></div></div>`;
   return html`<div className="mm">${stage < 5 ? header : null}${body}</div>`;
 }
@@ -4805,7 +4805,7 @@ function MusicWorld({ data, setData, go, startView }) {
   let body;
   if (view === 'start') body = html`<div className="panel m-start"><${ConcertStage} mus=${mus}/>
     <h1>THE TROPICAL ORCHESTRA</h1><p className="eyebrow">Play, sing, discover, and create!</p>
-    <${Say} who="captain" size=${100}>${mus.seen ? 'Hey Diego! Ready to make some music?' : "Hey, Diego! Welcome to the Tropical Orchestra! Our biggest concert is coming, but we need a conductor. Can you help us find our instruments, learn the food song, and make some amazing music?"}<//>
+    <${Say} who="captain" size=${100}>${mus.seen ? 'Hey carlo! Ready to make some music?' : "Hey, carlo! Welcome to the Tropical Orchestra! Our biggest concert is coming, but we need a conductor. Can you help us find our instruments, learn the food song, and make some amazing music?"}<//>
     <div className="home-btns"><button className="btn go big" onClick=${() => { AudioEng.ensure(); AudioEng.play('chime'); upd(m => { m.seen = true; }); setView('hub'); }}>LET'S PLAY MUSIC!</button><button className="btn lagoon" onClick=${() => { AudioEng.ensure(); upd(m => { m.seen = true; }); setView('studio'); }}>MY MUSIC STUDIO</button></div></div>`;
   else if (view === 'hub') body = html`<div className="m-hub">
     <div className="panel"><${ConcertStage} mus=${mus}/><p className="center-t">${mus.badges.includes('master') ? 'You are the Tropical Music Master! Play any mission again.' : 'Every mission gets us ready for the big concert. Pick any mission!'}</p></div>
@@ -4979,7 +4979,7 @@ function BanquetPlay({ ch, data, setData, onExit, onNext, onCollection }) {
   return html`<div className="screen play bq-play" style=${{ '--wc': '#ff8a5c' }}>
     <div className="topbar"><${NavBtn} icon="back" label="Banquete" onClick=${onExit}/><span className="chip-w">${ch.t}</span><span className="step-label">Reto ${Math.min(units + 1, total)} de ${total}</span></div>
     <div className="panel bq-card">
-      <div className="qhead"><div className="qguide"><${Diego} size=${84}/></div><div className="bubble"><p>${r.type === 'classify' ? 'Toca un alimento y luego toca su grupo.' : r.type === 'odd' ? '¿Cuál alimento es de otro grupo?' : r.type === 'plate' ? 'Arma un plato con un alimento de cada grupo.' : '¿Qué grupo le falta a este menú?'}</p>
+      <div className="qhead"><div className="qguide"><${carlo} size=${84}/></div><div className="bubble"><p>${r.type === 'classify' ? 'Toca un alimento y luego toca su grupo.' : r.type === 'odd' ? '¿Cuál alimento es de otro grupo?' : r.type === 'plate' ? 'Arma un plato con un alimento de cada grupo.' : '¿Qué grupo le falta a este menú?'}</p>
         <div className="help-row"><${Speak} text=${r.type === 'classify' ? 'Toca un alimento y luego toca su grupo.' : r.type === 'odd' ? 'Cuál alimento es de otro grupo' : r.type === 'plate' ? 'Arma un plato con un alimento de cada grupo.' : 'El menú tiene ' + r.meal.map(f => f.n).join(' y ') + '. Qué le agregas para que tenga los tres grupos'} lang="es"/></div></div></div>
       <${View} key=${ri} r=${r} onPoint=${onPoint} onDone=${onDone} say=${say}/>
       <div className=${'feedback ' + (msg ? (msg.kind === 'ok' ? 'right' : 'try') : '')} aria-live="polite">${msg ? html`<div className="fb-msg"><div><strong>${msg.text}</strong></div></div>` : null}</div>
@@ -5013,7 +5013,7 @@ function BanquetHub({ data, onStart, go }) {
   return html`<div className="screen">
     <div className="topbar"><${NavBtn} icon="back" label="Mapa" onClick=${() => go('map')}/><h2>El Banquete Secreto del Arrecife</h2></div>
     <div className="panel wm-head" style=${{ '--wc': '#ff8a5c' }}>
-      <${Diego} size=${104}/>
+      <${carlo} size=${104}/>
       <div className="wm-info"><span className="eyebrow">Alimentación · Español · más aventuras</span>
         <${BqSegments} data=${data}/>
         <span className="muted">${STORY.banquet.entry} Aprende con el Plato del Bien Comer. Es una aventura extra: no hace falta para las perlas.</span></div>
@@ -5142,7 +5142,7 @@ function ShellPathMission({ data, onFinish, onExit }) {
     ${quit ? html`<${ConfirmDialog} title="¿Volvemos al mapa?" text="Si sales ahora, el camino de Rayito empieza otra vez la próxima vez." cancelLabel="Seguir jugando" okLabel="Volver al mapa" onCancel=${() => setQuit(false)} onOk=${onExit}/>` : null}
     <div className="panel qcard sp-card">
       <${SpPath} done=${done} moving=${moving}/>
-      ${end ? html`<div className="sp-end" role="status"><${Guide} id="rayito" size=${120} cls="bounce"/><p className="m-bubble">¡Lo logramos, Diego! ¡Construiste todo el camino! ¡Eres increíble con las decenas!</p>
+      ${end ? html`<div className="sp-end" role="status"><${Guide} id="rayito" size=${120} cls="bounce"/><p className="m-bubble">¡Lo logramos, carlo! ¡Construiste todo el camino! ¡Eres increíble con las decenas!</p>
         <button className="btn go big" onClick=${() => onFinish(results.current)}>¡A seguir explorando!</button></div>`
       : html`<${SpStage} key=${i} st=${stages[i]} n=${i} onWin=${win} onMiss=${() => { missed.current = true; }}/>`}
     </div></div>`;
